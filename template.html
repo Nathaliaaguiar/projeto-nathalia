@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <title>Sitename - Intranet</title>
+</head>
+
+<body>
+
+    <!-- Âncora para início da página -->
+    <a id="top" name="top"></a>
+
+    <!-- Enquadramento da página -->
+    <div class="wrap">
+
+        <header>
+            <a href="/" title="<?php echo $siteName ?> - Página inicial"><img src="./img/logo02.png"
+                    alt="<?php echo $siteName ?> - Intranet"></a>
+            <h1>
+                <small>Com os pés no chão</small></h1>
+        </header>
+
+        <nav>
+            <a href="/" title="Página inicial"><i class="fas fa-fw fa-home"></i><span>Início</span></a>
+            <a href="/" title="Notícias atualizadas"><i class="fas fa-fw fa-newspaper"></i><span>Notícias</span></a>
+            <a href="/" title="Faça contato conosco"><i class="fas fa-fw fa-mail-bulk"></i><span>Contatos</span></a>
+            <a href="/" title="Sobre o <?php echo $siteName ?>"><i class="fas fa-fw fa-info-circle"></i><span>Sobre</span></a>
+        </nav>
+
+        <main>
+
+            <article>
+
+                <h2>Título da Página</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus numquam debitis quis doloremque illo ab dolorem sed, ducimus reprehenderit? Culpa nulla tempora numquam quo quae explicabo harum possimus cum porro?</p>
+                <picture>
+                    <img class="flush" src="https://picsum.photos/400/300" alt="Imagem aleatória">
+                </picture>
+                <p><a href="/">Link de teste</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut ex voluptatibus, quibusdam, consectetur neque enim iure aliquid cum dolore alias error facere deserunt quos itaque dolorem inventore officiis fugit.</p>
+
+            </article>
+
+            <aside>
+
+                <h3>Sidebar</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident necessitatibus atque.</p>
+
+            </aside>
+
+        </main>
+
+        <footer>
+
+            <div class="info">
+
+                <a href="/" title="Ir para a página inicial."><i class="fas fa-fw fa-home"></i></a>
+                <div>
+                    &copy; Copyright 2021 André Luferat
+                    <small>Todos os direitos reservados</small>
+                </div>
+                <a href="#top" title="ir para o topo desta página."><i class="fas fa-fw fa-arrow-alt-circle-up"></i></a>
+
+            </div>
+
+            <div class="menu">
+
+                <!-- Menu de redes sociais -->
+                <div class="social">
+                    <a href="/" target="_blank" title="<?php echo $siteName ?> no Facebook."><i
+                            class="fab fa-fw fa-facebook-square"></i><span>Facebook</span></a>
+                    <a href="/" target="_blank" title="<?php echo $siteName ?> no Youtube."><i
+                            class="fab fa-fw fa-youtube-square"></i><span>Youtube</span></a>
+                    <a href="/" target="_blank" title="<?php echo $siteName ?> no Twitter."><i
+                            class="fab fa-fw fa-twitter-square"></i><span>Twitter</span></a>
+                    <a href="/" target="_blank" title="<?php echo $siteName ?> no Instagram."><i
+                            class="fab fa-fw fa-instagram-square"></i><span>Instagram</span></a>
+                </div>
+
+                <!-- Menu de acesso rápido -->
+                <div class="tools">
+                    <a href="/" title="Sobre este site."><i class="fas fa-fw fa-globe"></i><span>O Site</span></a>
+                    <a href="/" title="Sobre o <?php echo $siteName ?>."><i class="fas fa-fw fa-microchip"></i><span>O Catodo
+                            Comum</span></a>
+                    <a href="/" title="Faça contato com o <?php echo $siteName ?>."><i
+                            class="fas fa-fw fa-mail-bulk"></i><span>Faça Contato</span></a>
+                    <a href="/" title="Sobre sua privacidade."><i class="fas fa-fw fa-unlock-alt"></i><span>Sua
+                            Privacidade</span></a>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <!-- Carga dos JavaScripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/global.js"></script>
+
+</body>
+
+</html>

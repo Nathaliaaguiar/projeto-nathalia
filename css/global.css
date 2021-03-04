@@ -1,0 +1,277 @@
+/* Reset do CSS */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body {
+    font-family: 'Grandstander', cursive;
+    /* Tamanho das fontes em 'rem' */
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}
+
+header,
+nav,
+main,
+article,
+aside,
+footer {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: .8rem 0;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+    transition: .2s;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+/* Background */
+
+body {
+    background-image: url(/img/bg01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: left;
+    background-color: #000;
+}
+
+
+/* Enquadramento da página */
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 280px;
+    max-width: 960px;
+    margin: auto;
+    /* Sticky footer */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    align-items: center;
+    color: #ddd;
+    padding: .8rem .5rem;
+}
+
+header img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: .8rem;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+header small {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: .13rem;
+    font-family: monospace;
+}
+
+
+/* Menu principal */
+
+nav {
+    background: rgba(0, 24, 34, 0.9);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px dotted grey;
+    border-bottom: 1px dotted grey;
+}
+
+nav a {
+    color: #ddd;
+    padding: .6rem .6rem .3rem .6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: rgb(0, 34, 49);
+    text-decoration: none;
+}
+
+nav a:first-child {
+    margin-right: auto;
+}
+
+nav i {
+    font-size: 1.5rem;
+}
+
+
+/* Menu principal responsivo */
+
+@media(min-width: 450px) {
+    nav a {
+        flex-direction: row;
+        padding: .6rem;
+    }
+    nav i {
+        font-size: 1.2rem;
+        margin-right: .4rem;
+    }
+}
+
+
+/* Rodapé */
+
+footer {
+    background: rgba(0, 0, 0, .95);
+    color: #ddd;
+    margin-top: .5rem;
+    border-top: 1px dotted grey;
+}
+
+
+/* Rodapé info */
+
+footer .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .info a {
+    padding: .5rem .5rem .35rem .5rem;
+    color: #ddd;
+    font-size: 1.1rem;
+}
+
+footer .info a:hover {
+    background: #ddd;
+    color: #000;
+}
+
+footer .info div {
+    font-size: .9rem;
+    text-align: center;
+}
+
+footer .info div small {
+    display: block;
+    font-size: .7rem;
+}
+
+
+/* Rodapé menu */
+
+footer .menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: .9rem;
+    padding: .5rem 0;
+    border-top: 1px dotted grey;
+}
+
+footer .menu div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .menu a {
+    padding: .15rem 0;
+}
+
+footer .menu i {
+    margin-right: .4rem;
+}
+
+
+/* Conteúdo */
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* Sticky footer */
+    flex: 2;
+}
+
+article {
+    background: rgba(255, 255, 255, .9);
+    overflow: auto;
+    margin-top: .5rem;
+    padding: 0 .5rem;
+    flex: 4;
+}
+
+aside {
+    background: rgba(223, 223, 223, .9);
+    overflow: auto;
+    margin-top: .5rem;
+    padding: 0 .5rem;
+}
+
+
+/* Conteúdo responsivo */
+
+@media(min-width: 575px) {
+    main {
+        flex-direction: row;
+    }
+    article {
+        margin-right: .25rem;
+    }
+    aside {
+        min-width: 190px;
+        max-width: 190px;
+        margin-left: .25rem;
+    }
+}
+
+
+/* Estilos gerais */
+
+.flush {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
