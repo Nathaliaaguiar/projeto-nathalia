@@ -1,0 +1,13 @@
+.authorDate {
+    display: block;
+    text-align: right;
+}
+
+.allLink {
+    text-align: center;
+}
+
+.separator {
+    border: none;
+    border-bottom: 3px dotted rgb(172, 172, 172);
+}

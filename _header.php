@@ -63,8 +63,8 @@ if($T['pageJS'] == '') {
         </header>
 
         <nav>
-            <a href="/" title="Página inicial"><i class="fas fa-fw fa-home"></i><span>Início</span></a>
-            <a href="/" title="Notícias atualizadas"><i class="fas fa-fw fa-newspaper"></i><span>Notícias</span></a>
+            <a href="/index.php" title="Página inicial"><i class="fas fa-fw fa-home"></i><span>Início</span></a>
+            <a href="/news.php" title="Notícias atualizadas"><i class="fas fa-fw fa-newspaper"></i><span>Notícias</span></a>
             <a href="/" title="Faça contato conosco"><i class="fas fa-fw fa-mail-bulk"></i><span>Contatos</span></a>
             <a href="/" title="Sobre o SiteName"><i class="fas fa-fw fa-info-circle"></i><span>Sobre</span></a>
         </nav>
