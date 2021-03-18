@@ -37,7 +37,7 @@ p {
 }
 
 a {
-    color: steelblue;
+    color: rgba(0, 0, 0, 0.952);
     text-decoration: none;
     transition: .2s;
 }
@@ -58,7 +58,7 @@ a:hover {
 /* Background */
 
 body {
-    background-image: url(/img/bg01.jpg);
+    background-image: url(/img/bg01.png);
     background-attachment: fixed;
     background-size: cover;
     background-position-x: left;
@@ -86,7 +86,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    color: #ddd;
+    color: rgba(0, 0, 0, 0.952);
     padding: .8rem .5rem;
 }
 
@@ -115,16 +115,16 @@ header small {
 /* Menu principal */
 
 nav {
-    background: rgba(0, 24, 34, 0.9);
+    background: rgba(172, 92, 39, 0.95);
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-top: 1px dotted grey;
+    border-top: 1px dotted rgba(0, 0, 0, 0.952);
     border-bottom: 1px dotted grey;
 }
 
 nav a {
-    color: #ddd;
+    color: rgba(0, 0, 0, 0.952);
     padding: .6rem .6rem .3rem .6rem;
     display: flex;
     flex-direction: column;
@@ -133,8 +133,8 @@ nav a {
 }
 
 nav a:hover {
-    background: #ddd;
-    color: rgb(0, 34, 49);
+    background: rgba(0, 0, 0, 0.952);
+    color: rgba(172, 92, 39, 0.95);
     text-decoration: none;
 }
 
@@ -164,8 +164,8 @@ nav i {
 /* Rodapé */
 
 footer {
-    background: rgba(0, 0, 0, .95);
-    color: #ddd;
+    background: rgba(172, 92, 39, 0.95);
+    color: rgba(0, 0, 0, 0.952);
     margin-top: .5rem;
     border-top: 1px dotted grey;
 }

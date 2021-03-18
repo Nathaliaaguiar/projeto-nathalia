@@ -33,17 +33,15 @@ require '_header.php';
 
             <article>
     
-                <h2>Notícias Atualizadas</h2>
-                <div id="news"></div>
+                <h2>Cardápio Chapa Quente</h2>
+                
+                <img src="/img/cardapio.png">
+
+
 
             </article>
 
-            <aside>
-
-                <h3>Sidebar</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident necessitatibus atque.</p>
-
-            </aside>
+            
 
 <?php
 

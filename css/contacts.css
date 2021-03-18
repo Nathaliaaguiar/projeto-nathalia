@@ -1,0 +1,62 @@
+.advise {
+    text-align: center;
+    color: orangered;
+    font-size: small;
+}
+
+label {
+    display: block;
+    padding: 0 0 0.3rem 0.5rem;
+}
+
+input, textarea, button {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background: rgb(255, 207, 207);
+    padding: 0.6rem 1rem;
+    border-radius: .4rem;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 6rem;
+    resize: vertical;
+}
+
+button {
+    background: linear-gradient(rgb(94, 174, 240), rgb(45, 84, 116));
+    color: rgb(255,255,255);
+    cursor: pointer;
+    width: 8rem;
+}
+
+button:hover {
+    background: linear-gradient(rgb(255, 117, 67), rgb(128, 34, 0));
+}
+
+button:disabled {
+    background: linear-gradient(rgb(158, 158, 158), rgb(114, 114, 114));
+    color: rgb(180, 180, 180);
+    cursor: not-allowed;
+}
+
+#contact:invalid button {
+    /* pointer-events: none; */
+    background: linear-gradient(rgb(158, 158, 158), rgb(114, 114, 114));
+    color: rgb(180, 180, 180);
+    cursor: no-drop;
+}
+
+input:invalid, textarea:invalid {
+    background: rgb(255, 207, 207);
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+input:valid, textarea:valid {
+    background: rgb(184, 255, 184);
+    border-bottom: 3px solid green;
+}

@@ -36,11 +36,17 @@ $conn->query("SET lc_time_names = 'pt_BR'");
 /* Inicializa variáveis do tema */
 $T = array(
 
-    'siteName' => 'Tilojo',
-    'siteSlogan' => 'Com os pés no chão',
+    'siteName' => 'Chapa Quente',
+    'siteSlogan' => 'Lanchonete e hamburgueria',
     'siteLogo' => '/img/logo02.png',
     'pageTitle' => '',
     'pageCSS' => '',
     'pageJS' => '',
-
+    'fullSiteName' => 'Chapa Quente',
+    'social' => array(
+    'facebook' => 'https://instagram.com/chapa.quente20?igshid=1s2k918tlpkvf',
+    'youtube' => 'https://youtube.com/tilojo',
+    'twitter' => 'https://twitter.com/tilojo',
+    'instagram' => 'https://instagram.com/chapa.quente20?igshid=1s2k918tlpkvf'
+    )
 );

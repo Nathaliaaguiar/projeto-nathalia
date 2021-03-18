@@ -40,7 +40,7 @@ if($T['pageJS'] == '') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
-    </php echo $CSS />
+    <?php echo $CSS ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
@@ -64,8 +64,8 @@ if($T['pageJS'] == '') {
 
         <nav>
             <a href="/index.php" title="Página inicial"><i class="fas fa-fw fa-home"></i><span>Início</span></a>
-            <a href="/news.php" title="Notícias atualizadas"><i class="fas fa-fw fa-newspaper"></i><span>Notícias</span></a>
-            <a href="/" title="Faça contato conosco"><i class="fas fa-fw fa-mail-bulk"></i><span>Contatos</span></a>
+            <a href="/news.php" title="Cardápio"><i class="fas fa-hamburger"></i></i><span>Cardápio</span></a>
+            <a href="/contacts.php" title="Faça contato conosco"><i class="fas fa-fw fa-mail-bulk"></i><span>Contatos</span></a>
             <a href="/" title="Sobre o SiteName"><i class="fas fa-fw fa-info-circle"></i><span>Sobre</span></a>
         </nav>
 
